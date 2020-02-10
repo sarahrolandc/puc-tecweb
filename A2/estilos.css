@@ -1,0 +1,11 @@
+.container {
+    background-color: rgb(170, 149, 190);
+    width: 50%;
+    font-family: 'Lemonada', cursive;
+}
+
+.container img{    
+    width: 150px;
+    float: left;
+    margin: 10px;
+}

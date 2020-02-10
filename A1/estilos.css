@@ -1,0 +1,32 @@
+body {
+    font-family: 'Lemonada', cursive;
+}
+
+p {
+    color: red;
+    font-size: 300%;
+    text-align: center;
+    font-weight: bold;
+}
+
+hr {
+    border-top: aqua 3px dashed
+}
+
+a {
+    text-decoration: none; 
+    color: green;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline
+}
+
+.cor_verde {
+    color: green;
+}
+
+#cor_azul{
+    color: blue;
+}
