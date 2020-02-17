@@ -1,11 +1,24 @@
-.container {
-    background-color: rgb(170, 149, 190);
-    width: 50%;
-    font-family: 'Lemonada', cursive;
+.cabecalho {
+    background-image: url(imagens/img4.jpg);
+    height: 150px;
 }
 
-.container img{    
-    width: 150px;
+.menu_itens {
+    background-color: rgb(162, 133, 189);
     float: left;
-    margin: 10px;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: grid;
+}
+
+.video{
+    width: 80%;
+    float: left;
+}
+
+.rodape {
+    display: inline-block;
+    background-color: blue;
+    width: 100%;
 }
