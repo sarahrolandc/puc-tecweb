@@ -26,3 +26,28 @@
 .table, th, td, tr {
     border: 1px solid blue;
 }
+
+.container {
+    background-color: rgb(162, 133, 189);
+    width: 700px; 
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    list-style: none;
+}
+
+.container li {
+    width: 500px;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.container input {
+    padding-right: 30px;
+    max-width: 220px;
+}
+
