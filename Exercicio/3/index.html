@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercicio 3</title>
+    <script src='main.js' type='text/javascript'></script>
+</head>
+
+<body>
+    <div>
+        <div id="cpfSemPontuacao">
+            CPF sem potuação: 
+        </div>
+        CPF com potuação:
+        <div id="cpfComPontuacao">       
+        </div>
+        <form name="form1">
+            <label>CPF:</label>
+            <input type="text" maxlength="14" name="cpf1" id="cpf" placeholder="999.888.777-11" />
+            <input type="button" value="Tirar pontuação" onclick="removeMask(); return false;"/>
+            <label>CPF:</label>
+            <input type="text" maxlength="11" name="cpf2" id="cpf" placeholder="99988877711" onkeypress="maskCPF()"/>            
+        </form>
+    </div>
+</body>
+
+</html>
